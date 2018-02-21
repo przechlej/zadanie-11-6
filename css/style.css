@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body {
+    	font-family: 'Lato', sans-serif;
+    	background: #c2f0f0;
+}
+
+h1 {
+	font-size: 46px;
+	color: #ffcc80;
+	text-align: center;
+}
+
+.create-column {
+  	text-align: center;
+	border: 3px solid black;
+	background-color: #ffd9b3;
+	padding: 0 15px;
+	height: 40px;
+	width: 300px;
+	margin: 20px;
+	font-size: 16px;
+}
+
+.create-column:hover {
+	color: #5c85d6;
+}
+
+.column-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.column {
+	position: relative;
+	background-color: #4dffff;
+	text-align: center;
+	padding-top: 50px;
+}
+ul {
+  	list-style-type:none;
+}
+.add-card {
+    	background: #0040ff;
+    	color: yellow;
+    	font-size: 20px;
+    	width: 30px;
+    	height: 30px;
+    	cursor: pointer;
+    	position: absolute;
+    	bottom: 0;
+    	right: 0;
+    	margin: 15px;
+	border-radius: 50%;
+    	border: none;
+}
+.btncolumn  {
+    	float: right;
+    	margin-right: 15px;
+    	background: yellow;
+    	cursor: pointer;
+}
+
+.btncard {
+    	float: left;
+    	cursor: pointer;
+    	background: #0040ff;
+    	color: yellow;
+    	margin-right: 10px;
+    	border:none;
+}
